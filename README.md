@@ -1,10 +1,5 @@
-This assignment starts off with javascript that is used to display the current time by using built in JS functions and fetching for the 
-day of the week, the month, the date of the month, and the year.
-Then it Displays the current hour and minute time undernearth for reference to the calendar hour times.
+https://greggamage.github.io/WorkDaySchedule/
 
-Using HTML and bootstrap, I created 8 different horizontal divs that hold 3 different columns from left to right is the text, the input box, and the Save button.
-Once information is typed into the box and it is allowed to do so, you cannot use boxes of times that have already past, they are greyed out depening on the time of day. If they are available and in the future, then they are green text boxes, and the current hour is highlighted in Red.
+Create a simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-The save button text is green and when clicked it turns blue, after clicking, an event listener grabs the text from the input box and set it for local storage with a unique ID matching the text box id. Once in local storage, a for loop that displays all local storage fills in the inner text once reloaded. It inputs the local storage into those input boxes in place of the placeholder when you reload so that your boxes are filled with your previous work.
-
-A screenshot is provided to show when the time was available and the greyed out boxes of the past time.
+![c2efc3a8e1f8c85edf33d8d6ae4934b5](https://user-images.githubusercontent.com/105221654/170543212-a7c7dda1-5826-4383-8b01-d5a75e429e87.png)
